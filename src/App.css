@@ -1,12 +1,14 @@
+/* Estilos generales */
+
 .App, * {
   margin: 0px;
   cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🖕🏼</text></svg>")
   16 0,
-auto;
-font-family: "Inter", sans-serif;
+  auto;
+  font-family: "Inter", sans-serif;
 }
 
-/* Esconder scroll bar */
+/* Esconder la barra de desplazamiento */
 ::-webkit-scrollbar {
   width: 1px;
   height: 1px;
@@ -17,69 +19,66 @@ font-family: "Inter", sans-serif;
   height: 1px;
 }
 
-/* seccion uno */
-.seccion_uno{
+/* Estilos de la sección uno */
+.seccion_uno {
   width: 100%;
   height: 100vh;
   background-color: #5c5c5c;
   position: static;
 }
 
-/* seccion dos */
-.seccion_dos{
+/* Estilos de la sección dos */
+.seccion_dos {
   position: static;
   width: 100%;
   height: 100vh;
   background-color: rgb(140, 140, 140);
 }
 
-/* titulo */
-
+/* Estilos del título */
 .text-box {
-	position: relative;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 h1 {
-	font-size: 6vw;
-	font-weight: 800;
-	background-color: #000;
-	color: #fff;
-	display: block;
-	padding: 0px 500% 0px 500%;
+  font-size: 6vw;
+  font-weight: 800;
+  background-color: #000;
+  color: #fff;
+  display: block;
+  padding: 0px 500% 0px 500%;
 }
 
 h1:nth-child(2) {
-	position: absolute;
+  position: absolute;
   background-color: rgb(140, 140, 140);
-	color: #000;
-	clip-path: inset(-1% -1% 50% -1%);
+  color: #000;
+  clip-path: inset(-1% -1% 50% -1%);
 }
 
 .container {
   top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	width: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
-/* cierre del titulo */
-
-.close_title{
+/* Estilos del cierre del título */
+.close_title {
   width: 100%;
   background-color: #000;
   height: 100px;
 }
 
-/* proyectos */
-
+/* Estilos de los proyectos */
 .proyectos {
   margin: 20px 0px 20px 0px;
   height: 650px;
@@ -136,8 +135,8 @@ h1:nth-child(2) {
   margin: 5px;
 }
 
-/* seccion tres */
-.seccion_tres{
+/* Estilos de la sección tres */
+.seccion_tres {
   width: 100%;
   height: 100vh;
   background-color: #dcdcdc;
