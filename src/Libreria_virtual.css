@@ -1,0 +1,182 @@
+.App, * {
+    margin: 0px;
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🖕🏼</text></svg>")
+    16 0, auto;
+font-family: "Inter", sans-serif;
+}
+
+/* Esconder scroll bar */
+::-webkit-scrollbar {
+width: 1px;
+height: 1px;
+}
+
+::-webkit-scrollbar-button {
+width: 1px;
+height: 1px;
+}
+
+/* seccion_proyecto */
+.seccion_proyecto{
+width: 100%;
+height: 100vh;
+margin-bottom: -30px;
+}
+
+/* titulo */
+
+.text_box_libreria {
+    width: 110.6px;
+    margin-top: 50px;
+    margin-left: -995px;
+}
+
+.titulo{
+	font-size: 4vw;
+	font-weight: 800;
+	background-color: #000;
+	color: #fff;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px 50px 0px 0px;
+}
+
+.container_libreria {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+    background-color: #fff;
+    height: 670px;
+}
+
+.box_imagen_libreria{
+    margin-top: -500px;
+    width: 1000px;
+    height: 500px;
+    background-color: rgb(140, 140, 140);
+    z-index: 0;
+}
+
+/* contenido del proyecto */
+
+.card_libreria {
+    width: 700px;
+    height: 350px;
+    background: #f5f5f5;
+    position: relative;
+    padding: 1.8rem;
+    border: 2px solid #000000;
+    transition: 0.5s ease-out;
+    overflow: visible;
+    margin-top: -460px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 2px ease-out;
+}
+
+.card_button_libreria {
+    transform: translate(-50%, 125%);
+    width: 60%;
+    border-radius: 1rem;
+    border: none;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.3s ease-out;
+}
+
+/*Hover*/
+.card_libreria:hover {
+    border-color: #ffffff;
+    border:5px solid #ffffff;
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.card_libreria:hover .card_button_libreria {
+    transform: translate(-50%, 50%);
+    opacity: 1;
+}
+
+.decorado_uno{
+    width: 100px;
+    background-color: #000;
+    height: 500px;
+    margin-left: -1006px;
+    border-radius: 0px 0px 50px 0px;
+    z-index: 2;
+}
+
+.decorado_dos{
+    width: 100px;
+    background-color: #000;
+    height: 500px;
+    margin-left: 1006px;
+    margin-top: -500px;
+    border-radius: 0px 0px 0px 50px;
+    z-index: 2;
+}
+
+.decorado_tres{
+    width: 507px;
+    background-color: #000;
+    height: 100px;
+    margin-left: 1413px;
+    margin-top: -100px;
+    border-radius: 0px 0px 0px 50px;
+    z-index: 2;
+}
+
+.decorado_cuatro{
+    width: 500px;
+    background-color: #000;
+    height: 100px;
+    margin-left: -1450px;
+    margin-top: -100px;
+    border-radius: 0px 0px 50px 0px;
+    z-index: 2;
+}
+
+/* sobre */
+
+.container_sobre {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+    background-color: rgb(140, 140, 140);
+    height: 1500px;
+}
+
+.titulo_sobre{
+	font-size: 3vw;
+	font-weight: 800;
+	color: #000000;
+    height: 50px;
+    display: flex;
+    width: 580px;
+    margin-left: -190px;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15px;
+    border-bottom: 7px solid black;
+}
+
+.regresar{
+    text-decoration: none;
+    font-size: 2vw;
+	font-weight: 800;
+    margin-top: -780px;
+    margin-left: -1700px;
+    color: #000000;
+    border-bottom: 7px solid rgb(0, 0, 0);
+}
