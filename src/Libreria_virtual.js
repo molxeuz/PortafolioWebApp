@@ -9,13 +9,13 @@ function App_libreria_virtual() {
         <div className="App">
           <Routes>
             <Route path="/" element={<Libreria_virtual />} />
-            <Route path="/" element={<App_libreria_virtual />} />
+            <Route path="/portafolio_web" element={<portafolio_web />} />
+
           </Routes>
         </div>
       </Router>
     );
   }
-
 
 const Libreria_virtual = () => {
 
@@ -23,33 +23,40 @@ const Libreria_virtual = () => {
 
         <section class="seccion_proyecto">
 
-            {/* titulo de la seccion */}
-
-            <div className="container_libreria" style={{backgroundImage: 'url()', backgroundSize: 'cover'}}>
-
-                <div class="text_box_libreria">
-                    <h1 class="titulo">LIBRERIA.VIRTUAL</h1>
-                </div>
-                <div class="decorado_uno"></div>
-                <div class="decorado_dos"></div>
-                <div class="decorado_tres"></div>
-                <div class="decorado_cuatro"></div>
-
-                <div class="box_imagen_libreria"></div>
-                <div class="card_libreria" style={{backgroundImage: 'url(https://www.paginaswebs.com/wp-content/uploads/2017/12/Kevin-R.-Witman-pluto_animation_red_arrow_2s_forever_1469761409.gif)', backgroundSize: 'cover'}}>
-                    <a style={{textDecoration: 'none', textAlign: 'center'}} href="https://github.com/Ch31ios/Virtual_library" class="card_button_libreria" target="_blank" rel="noopener noreferrer">REPOSITORIO EN GITHUB</a>
-                </div>
-            </div>
-
             <div class="container_sobre">
 
-                <h2 class="titulo_sobre">Sobre el proyecto:</h2>
+                <div class="decoracion_uno">LIBRERIA VIRTUAL</div>
+
+                <img src={require('./IMG/imagen_libreria_virtual.PNG')} class="fondo" alt='fondo_libreria_virtual' />  
+
+                <div class="container_imagen">
+                
+                  <img src={require('./IMG/libreria5.PNG')} class="imagen" alt='libreria_virtual' />  
+                  <img src={require('./IMG/libreria_codigo.PNG')} class="imagen" alt='libreria_virtual' />  
+                  <img src={require('./IMG/codigo_dos.PNG')} class="imagen" alt='libreria_virtual' />  
+
+                </div>
+
+                <div class="decoracion_dos"></div>
+
+                <div class="sobre_proyecto">
+
+                  <div class="decoracion_tres"></div>
+
+                  <h2 class="titulo_sobre">SOBRE EL PROYECTO:</h2>
+
+                  <h3 class="explicacion_sobre">La interfaz principal de la aplicación consta de tres secciones principales: Registro de Libros, Registro de Usuarios y Registro de Rentas. Cada sección tiene su propia lista dedicada para mostrar los elementos relacionados. <br/> <br/> La base de datos MySQL se utiliza para almacenar y recuperar la información relacionada con libros, usuarios y rentas. Cada vez que se realiza una acción, como agregar un libro, registrar un usuario o iniciar una renta, los datos se guardan en la base de datos para su posterior recuperación y consulta. <br/> <br/> En resumen, esta biblioteca virtual desarrollada en Android Studio proporciona una forma eficiente y conveniente de administrar libros, usuarios y rentas. Con sus tres interfaces principales y su integración con una base de datos MySQL, facilita la organización y seguimiento de los recursos de una biblioteca de manera efectiva.</h3>
+
+                  <div class="decoracion_cuatro"></div>
+
+                </div>
+
+                <a class="github" href="https://github.com/Ch31ios/Virtual_library" target="_blank" rel='noreferrer'>ir a GitHub!</a>
 
                 <Link class="regresar" to="/">VOLVER</Link>
+                <Link class="siguiente" to="/portafolio_web">SIGUIENTE</Link>
 
             </div>
-
-            {/* parte del proyecto */}
 
         </section>
 
