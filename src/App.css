@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+
+html{
+  scroll-behavior: smooth;
+  font-family: "Titillium Web", sans-serif;
+}
+
 .App, * {
   margin: 0px;
   cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🖕🏼</text></svg>")
@@ -16,11 +23,173 @@ font-family: "Inter", sans-serif;
   height: 1px;
 }
 
+/* seccion uno */
+
+/*Aqui comienza la seccion uno*/
+
+/*Diseño de la imagen que esta dentro de la carta*/
+/* 1 */
+.imagen_inicio1 {
+  margin-left: 10px;
+  margin-top: 20px;
+  width: 300px;
+  height: 250px;
+  border: 2px solid white;
+  z-index: 1;
+  border: 5px solid black;
+  box-shadow: 8px 8px 0px 0px black;
+  transition: all .2s ease-in-out;
+  background-size: auto;
+}
+
+.imagen_inicio1:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 8px 0px 0px black;
+  transition-duration: .3s;
+}
+
+/* 2 */
+.imagen_inicio2 {
+  margin-left: 60px;
+  margin-top: 20px;
+  width: 300px;
+  height: 250px;
+  border: 2px solid white;
+  z-index: 1;
+  border: 5px solid black;
+  box-shadow: 8px 8px 0px 0px black;
+  transition: all .2s ease-in-out;
+  background-size: auto;
+}
+
+
+.imagen_inicio2:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 8px 0px 0px black;
+  transition-duration: .3s;
+}
+
+/* 3 */
+.imagen_inicio3 {
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 300px;
+  height: 250px;
+  border: 2px solid white;
+  z-index: 1;
+  border: 5px solid black;
+  box-shadow: 8px 8px 0px 0px black;
+  transition: all .2s ease-in-out;
+  background-size: auto;
+}
+
+.imagen_inicio3:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 8px 0px 0px black;
+  transition-duration: .3s;
+}
+
+/*Este es el diseño de esta parte de la seccion uno*/
+.design-section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #1f1f1f;
+  padding: 50px 0;
+  font-family: 'Jost', sans-serif;
+}
+
+/*Esto es diseño de el contenido */
+.timeline {
+  width: 800px;
+  height: 650px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: -20px;
+}
+
+.timeline2 {
+  width: 800px;
+  height: 650px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: -20px;
+}
+
+/*Este es el diseño del titulo "introduccion"*/
+.contenedor_texto {
+  font-family: "Titillium Web", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  max-width: 600px;
+  height: auto;
+  margin-top: 30px;
+  color: white;
+  font-size: 50px;
+  text-shadow: 2px 2px 4px rgba(255, 251, 251, 0.5);
+}
+
+/*Este es el diseño de la explicacion del proyecto*/
+.contenedor_texto2 {
+  font-family: "Titillium Web", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  height: auto;
+  margin-top: 30px;
+  text-align: justify;
+  color: white;
+  font-size: 23px;
+  padding: 0% 4% 0% 2%;
+  text-shadow: 2px 2px 4px rgba(109, 81, 81, 0.5);
+}
+
+/* Media queries para pantallas más pequeñas */
+@media (max-width: 768px) {
+  .contenedor_texto, .contenedor_texto2 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 576px) {
+  .design-section {
+    padding: 30px 0;
+  }
+  
+  .contenedor_texto, .contenedor_texto2 {
+    font-size: 20px;
+  }
+}
+
+/*Aqui finaliza la seccion uno*/
+/*----------------------------------------------------------*/
+/*Aqui comienza la seccion dos*/
+
+/* seccion uno */
+.seccion_uno{
+  width: 100%;
+  height: 100vh;
+  background-color: #5c5c5c;
+}
+
 .seccion_dos{
   width: 100%;
   height: 100vh;
   background-color: rgb(140, 140, 140);
   margin-bottom: -30px;
+  scroll-margin-top: 95px;
 }
 
 .text-box {
@@ -31,7 +200,7 @@ font-family: "Inter", sans-serif;
   width: 114px;
 }
 
-h1 {
+.h1_proyectos {
 	font-size: 6vw;
 	font-weight: 800;
 	background-color: #000;
@@ -40,7 +209,7 @@ h1 {
 	padding: 0px 500% 0px 500%;
 }
 
-h1:nth-child(2) {
+.h1_proyectos:nth-child(2) {
 	position: absolute;
   background-color: rgb(140, 140, 140);
 	color: #000;

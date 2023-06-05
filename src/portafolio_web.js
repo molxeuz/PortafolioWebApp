@@ -1,19 +1,18 @@
-import './Libreria_virtual.css';
-
+import './estilos_proyectos.css';
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import { Libreria_virtual } from './Libreria_virtual';
+import { Routes, Route, Link } from 'react-router-dom';
+import { AppLibreriaVirtual } from './Libreria_virtual';
 
-function App_portafolio_web() {
+function AppPortafolioWeb() {
     return (
-      <Router>
+
         <div className="App">
           <Routes>
-            <Route path="/" element={<portafolio_web />} />
-            <Route path="/libreria_virtual" element={<Libreria_virtual />} />
+            <Route path="/" element={<PortafolioWeb />} />
+            <Route path="/libreria_virtual" element={<AppLibreriaVirtual />} />
           </Routes>
         </div>
-      </Router>
+      
     );
 }
 
@@ -21,7 +20,7 @@ const PortafolioWeb = () => {
 
     return(
 
-        <section class="seccion_proyecto_web">
+        <section class="seccion_proyecto_web" style={{paddingTop: '80px'}}>
 
             <div class="container_sobre">
 
@@ -64,4 +63,4 @@ const PortafolioWeb = () => {
 
 };
 
-export {PortafolioWeb};
+export {AppPortafolioWeb};
