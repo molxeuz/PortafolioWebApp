@@ -32,6 +32,14 @@ header {
 		z-index: 3;
 }
 
+nav{
+	width: 160%;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	margin-left: 70px;
+}
+
 nav a {
 	font-size: 25px;
 	margin: 0 2rem;

@@ -23,7 +23,6 @@ font-family: "Inter", sans-serif;
   height: 1px;
 }
 
-/* seccion uno */
 
 /*Aqui comienza la seccion uno*/
 
@@ -97,7 +96,8 @@ font-family: "Inter", sans-serif;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-color: #1f1f1f;
+  background: rgb(62,62,62);
+  background: linear-gradient(180deg, rgba(62,62,62,1) 85%, rgba(112,112,112,1) 100%);
   padding: 50px 0;
   font-family: 'Jost', sans-serif;
 }
@@ -110,7 +110,7 @@ font-family: "Inter", sans-serif;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: -20px;
+  margin-top: 140px;
 }
 
 .timeline2 {
@@ -120,7 +120,7 @@ font-family: "Inter", sans-serif;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: -20px;
+  margin-top: 80px;
 }
 
 /*Este es el diseño del titulo "introduccion"*/
@@ -177,7 +177,6 @@ font-family: "Inter", sans-serif;
 /*----------------------------------------------------------*/
 /*Aqui comienza la seccion dos*/
 
-/* seccion uno */
 .seccion_uno{
   width: 100%;
   height: 100vh;
@@ -187,9 +186,30 @@ font-family: "Inter", sans-serif;
 .seccion_dos{
   width: 100%;
   height: 100vh;
-  background-color: rgb(140, 140, 140);
-  margin-bottom: -30px;
+  background-color: #707070;
   scroll-margin-top: 95px;
+}
+
+.seccion_tres{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background: rgb(112,112,112);
+  background: linear-gradient(180deg, rgba(112,112,112,1) 0%, rgba(189,189,189,1) 15%);
+  margin-bottom: -30px;
+  scroll-margin-top: 45px;
+}
+
+.tarjeta{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -150px;
 }
 
 .text-box {
@@ -211,7 +231,7 @@ font-family: "Inter", sans-serif;
 
 .h1_proyectos:nth-child(2) {
 	position: absolute;
-  background-color: rgb(140, 140, 140);
+  background-color: #707070;
 	color: #000;
 	clip-path: inset(-1% -1% 50% -1%);
 }
@@ -255,7 +275,7 @@ font-family: "Inter", sans-serif;
   display: flex;
   justify-content: center;
   cursor: pointer;
-  margin: 10px;
+  margin: 15px;
 }
 
 .card:hover {
@@ -288,10 +308,4 @@ font-family: "Inter", sans-serif;
 .card .info-card p {
   font-size: 14px;
   margin: 5px;
-}
-
-.seccion_tres{
-  width: 100%;
-  height: 100vh;
-  background-color: #dcdcdc;
 }

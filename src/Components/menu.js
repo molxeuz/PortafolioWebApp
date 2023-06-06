@@ -45,7 +45,7 @@ function Menu() {
 			<nav ref={navRef}>
 				<a href="/#">INICIO</a>
 				<a href="#proyectos">PROYECTOS</a>
-				<a href="/#">NOSOTROS</a>
+				<a href="#contactos">NOSOTROS</a>
 
 				{/* Botón de cierre del menú */}
 				<button className="nav-btn nav-close-btn" onClick={showMenu}>
